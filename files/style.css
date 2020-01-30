@@ -74,12 +74,12 @@ h3, h4, h5, h6 {
   
 a {
     color:#39c;
-    font-weight:400;
     text-decoration:none;
 }
   
 a:hover {
     color:#069;
+    cursor: pointer;
 }
   
 a small {
@@ -102,6 +102,31 @@ hr {
     background:#e5e5e5;
     height:1px;
     margin:0 0 20px;
+}
+
+
+table.cfp-table {
+    border-collapse: collapse;
+
+}
+
+
+table.cfp-table th, table.cfp-table td {
+    padding: .55em;
+}
+
+table.cfp-table th {
+  display: table-cell;
+  background-color: #ececec;
+  border: 1px solid #777;
+  color: #222;
+}
+
+table.cfp-table td {
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid#777;
+    font: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 
