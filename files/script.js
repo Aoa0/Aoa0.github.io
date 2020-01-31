@@ -24,3 +24,4 @@ function create_cfp_links(){
         window.scroll(0, $("#cfp").offset().top);
     });
 }
+
