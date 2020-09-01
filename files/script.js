@@ -62,12 +62,21 @@ var others_2020 = [
     ['https://a2i2.github.io/ase2020/', 'ASE 2020', '2020-04-17', '2020-07-03', '10 + 2', 'Melbourne', 'IEEE'],
     ['https://infocom2021.ieee-infocom.org/authors/call-papers-main-conference', 'INFOCOM 2021', '2020-08-15', '2020-12-04', '10 +', 'Vancouver', 'IEEE'],
     ['https://conf.researchr.org/home/icse-2021', 'ICSE 2021', '2020-08-28', '2020-12-17', '10 + 2', 'Madrid', 'ACM'],
-    ['https://www.sigmobile.org/mobihoc/2021/', 'MobiHoc 2021', '', '', '', '', ''],
-    ['https://www.sigmobile.org/mobisys/2021/', 'MobiSys 2021', '', '', '', '', ''],
     ['http://www2021.thewebconf.org/authors/call-for-papers/', 'WWW 2021', '2020-10-19', '2020-11-25', '12 +', 'Ljubljana', 'ACM'],
     ['http://saner2021.site/', 'SANER 2021', '2020-10-22', '2020-12-14', '12 +', 'Virtual', 'IEEE'],
+
     
 ]
+
+// sort by CFP deadline
+function ascend(x, y){
+    return x[2].localeCompare(y[2])
+}
+
+security_2020.sort(ascend)
+others_2020.sort(ascend)
+security_2021.sort(ascend)
+others_2021.sort(ascend)
 
 
 function create_table(){
