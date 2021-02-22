@@ -19,7 +19,7 @@ function show_cfps(s){
 function create_cfp_links(){
     $('.cfp-link').click(function(){
         var year = this.id.substring(4);
-        console.log(year);
+        // console.log(year);
         $(".cfp").hide();
         $(".cfp-20" + year).show();
         window.scroll(0, $("#cfp").offset().top);
