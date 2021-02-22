@@ -1,7 +1,9 @@
 $(function(){
-    show_cfps("cfp-2020");
+    show_cfps("cfp-2021");
     create_cfp_links();
-    create_table()
+    create_table();
+    set_last_modified();
+    console.log("hahahah")
 })
 
 function show_cfps(s){
@@ -65,8 +67,6 @@ var others_2020 = [
     ['https://conf.researchr.org/home/icse-2021', 'ICSE 2021', '2020-08-28', '2020-12-17', '10 + 2', 'Madrid', 'ACM'],
     ['http://www2021.thewebconf.org/authors/call-for-papers/', 'WWW 2021', '2020-10-19', '2020-11-25', '12 +', 'Ljubljana', 'ACM'],
     ['http://saner2021.site/', 'SANER 2021', '2020-10-22', '2020-12-14', '12 +', 'Virtual', 'IEEE'],
-
-    
 ]
 
 // sort by CFP deadline
@@ -78,6 +78,11 @@ security_2020.sort(ascend)
 others_2020.sort(ascend)
 security_2021.sort(ascend)
 others_2021.sort(ascend)
+
+function set_last_modified(){
+    var date = document.lastModified;
+    console.log(date)
+}
 
 
 function create_table(){

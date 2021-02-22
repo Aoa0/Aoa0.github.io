@@ -12,9 +12,16 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-157433828-1');
         </script>
+        <script>
+            window.onload = function(){
+                var d = new Date(document.lastModified); 
+                document.getElementById("lmodified").innerHTML = "Updated: " + d.toDateString();
+                console.log(d)
+            } 
+        </script>
+
     </head>
 
     <body>
@@ -195,9 +202,8 @@
                 </li>
             </ul>
             
-
             <div id="footer">
-                Last Update: Aug. 04, 2020
+                <p class="footer" id="lmodified"></p>
             </div>
             </br>
             </br>

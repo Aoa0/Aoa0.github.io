@@ -10,10 +10,16 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-157433828-1');
         </script>
+        <script>
+            window.onload = function(){
+                var d = new Date(document.lastModified); 
+                document.getElementById("lmodified").innerHTML = "Updated: " + d.toDateString();
+                console.log(d)
+            } 
 
+        </script>
     </head>
 
     <body>
@@ -35,7 +41,7 @@
                 </tr>
             </table><p>
             
-            I'm a second-year Ph.D. student at Shanghai Jiao Tong University, advised by <a href="http://www.yyjess.com">Dr. Yuanyuan Zhang</a>. 
+            I'm a third-year Ph.D. student at Shanghai Jiao Tong University, advised by <a href="http://www.yyjess.com">Dr. Yuanyuan Zhang</a>. 
             I received my bachelor's degree from Sichuan University in 2018.
 
             <hr>
@@ -56,8 +62,6 @@
                    San Juan, Puerto Rico, December 2019<br>
                    <br>
                    <br>
-                   
-    
                 <li>
                    <a href="pubs/saner19.pdf"><b>APPCOMMUNE: Automated Third-Party Libraries De-duplicating and Updating for Android Apps</b></a><br/>
                    Bodong Li, Yuanyuan Zhang, Juanru Li, <b>Runhan Feng</b> and Dawu Gu <br> 
@@ -68,7 +72,7 @@
             <hr>
 
             <div id="footer">
-                Last Update: Aug. 04, 2020
+                <p class="footer" id="lmodified"></p>
             </div>
 
             </br>
