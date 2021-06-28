@@ -50,24 +50,18 @@ var security_2021 = [
     ['https://raid2021.org/call-for-papers/', 'RAID 2021', '2021-04-01', '2021-06-06', '12+', 'Donostia', 'ACM'],
     ['https://www.ndss-symposium.org/ndss2022/call-for-papers/', 'NDSS 2022', '2021-05-21', '2021-08-06', '13+', 'San Diego', 'IEEE'],
     ['https://www.ndss-symposium.org/ndss2022/call-for-papers/', 'NDSS 2022', '2021-07-23', '2021-10-15', '13+', 'San Diego', 'IEEE'],
-    ['https://www.acsac.org/2021/submissions/papers/', 'ACSAC 2021', '2021-06-23', '2021-08-19', '10 + 5', 'Texus', 'ACM'],
+    ['https://www.acsac.org/2021/submissions/papers/', 'ACSAC 2021', '2021-06-23', '2021-08-19', '10 + 5', 'Texas', 'ACM'],
     ['', 'DSN 2022', '', '', '11 +', '', ''],
-
-
-
-
 ]
 
 var others_2021 = [
+    ['https://conf.researchr.org/track/issta-2021/issta-2021-technical-papers', 'ISSTA 2021', '2021-01-29', '2021-03-28', '10 + 2', 'Virtual', 'ACM'],
     ['https://2021.esec-fse.org/track/fse-2021-papers', 'ESEC/FSE 2021', '2021-02-25', '2021-04-30', '10 + 2', 'Athens', 'ACM'],
     ['https://conf.researchr.org/home/icse-2022', 'ICSE 2022', '2021-08-27', '2021-12-03', '10 + 2', 'Pittsburgh', 'ACM'],
     ['https://conf.researchr.org/home/ase-2021', 'ASE 2021', '2021-04-23', '2021-07-07', '10 + 2', 'Melbourne', 'ACM'],
     ['https://www.sigmobile.org/mobicom/2021/', 'MobiCom 2021', '2021-03-19', '2021-06-11', '12 + ', 'Virtual',  'ACM'],
     ['https://conferences.sigcomm.org/sigcomm/2021/', 'SIGCOMM 2021', '2021-01-20', '2021-05-03', '12 + ', 'Virtual', 'ACM'],
     ['https://www.sigmobile.org/mobisys/2021/', 'MobiSys 2021', '2021-01-08', '2021-03-25', '12 + ', 'Virtual', 'ACM'],
-
-
-
 ]
 
 var security_2020 = [
