@@ -51,7 +51,7 @@ var security_2021 = [
     ['https://www.ndss-symposium.org/ndss2022/call-for-papers/', 'NDSS 2022', '2021-05-21', '2021-08-06', '13+', 'San Diego', 'IEEE'],
     ['https://www.ndss-symposium.org/ndss2022/call-for-papers/', 'NDSS 2022', '2021-07-23', '2021-10-15', '13+', 'San Diego', 'IEEE'],
     ['https://www.acsac.org/2021/submissions/papers/', 'ACSAC 2021', '2021-06-23', '2021-08-19', '10 + 5', 'Texas', 'ACM'],
-    ['', 'DSN 2022', '', '', '11 +', '', ''],
+    ['https://dsn2022.github.io/', 'DSN 2022', '2021-12-03', '2022-03-14', '11 +', 'Maryland', 'IEEE'],
 ]
 
 var others_2021 = [
