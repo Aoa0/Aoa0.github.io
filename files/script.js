@@ -33,7 +33,7 @@ var security_2022 = [
 ]
 
 var others_2022 = [
-    
+    ['https://2022.esec-fse.org/track/fse-2022-research-papers', 'ESEC/FSE 2022', '2022-03-10', '2022-05-13', '10 + 2', 'Singapore', 'ACM'],
 ]
 
 var security_2021 = [
