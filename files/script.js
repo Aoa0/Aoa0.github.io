@@ -43,7 +43,7 @@ var security_2022 = [
 var others_2022 = [
     ['https://conf.researchr.org/track/issta-2022/issta-2022-technical-papers#Call-for-Papers', 'ISSTA 2022', '2022-01-28', '2022-03-23', '10 + 2', 'Daejeon', 'ACM'],
     ['https://2022.esec-fse.org/track/fse-2022-research-papers', 'ESEC/FSE 2022', '2022-03-10', '2022-05-09', '10 + 2', 'Singapore', 'ACM'],
-    ['https://www.sigmobile.org/mobicom/2022/', 'MobiCom 2022', '2022-03-18', '2022-06-10', '12 +', '', 'ACM'],
+    ['https://www.sigmobile.org/mobicom/2022/', 'MobiCom 2022', '2022-03-18', '2022-06-10', '12 +', 'Sydney', 'ACM'],
     ['https://2022.splashcon.org/track/splash-2022-oopsla', 'OOPSLA 2022', '2022-04-15', '2022-06-12', '23 +', 'Auckland', 'ACM'],
     ['https://conf.researchr.org/track/ase-2022/ase-2022-research-papers', 'ASE 2022', '2022-04-29', '2022-07-20', '10 + 2', 'Michigan', 'ACM'],
     ['https://conf.researchr.org/track/icse-2023/icse-2023-technical-track', 'ICSE 2023', '2022-09-01', '2022-11-14', '10 + 2', 'Melbourne', 'ACM'],
