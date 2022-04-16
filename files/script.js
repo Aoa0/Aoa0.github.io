@@ -37,6 +37,8 @@ var security_2022 = [
     ['https://www.ieee-security.org/TC/SP2023/cfpapers.html', 'Oakland 2023', '2022-04-01', '2022-06-07', '13 + 5', 'San Francisco', 'IEEE'],
     ['https://www.ieee-security.org/TC/SP2023/cfpapers.html', 'Oakland 2023', '2022-08-19', '2022-10-24', '13 + 5', 'San Francisco', 'IEEE'],
     ['https://www.ieee-security.org/TC/SP2023/cfpapers.html', 'Oakland 2023', '2022-12-02', '2023-02-21', '13 + 5', 'San Francisco', 'IEEE'],
+    ['https://www.ndss-symposium.org/ndss2023-call-for-papers/', 'NDSS 2023', '2022-05-13', '2022-07-22', '13 +', 'San Diego', 'IEEE'],
+    ['https://www.ndss-symposium.org/ndss2023-call-for-papers/', 'NDSS 2023', '2022-07-29', '2022-10-21', '13 +', 'San Diego', 'IEEE'],
 
 ]
 
