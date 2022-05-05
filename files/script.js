@@ -28,6 +28,14 @@ function create_cfp_links(){
 
 var table_head = ['Name', 'Deadline', 'Notification', 'Page', 'Location', 'Format']
 
+var security_2023 = [
+    ['https://www.usenix.org/conference/usenixsecurity23/call-for-papers', 'Security 2023', '2023-02-07', '2021-05-08', '13 + ', 'Anaheim', 'USENIX'],
+]
+
+var others_2023 = [
+    
+]
+
 var security_2022 = [
     ['https://www.usenix.org/conference/usenixsecurity22/call-for-papers', 'Security 2022', '2022-02-01', '2022-05-02', '13 +', 'Boston', 'USENIX'],
     ['https://www.sigsac.org/ccs/CCS2022/call-for-papers.html', 'CCS 2022', '2022-01-14', '2022-02-18', '12 +', 'Los Angeles', 'ACM'],
@@ -39,7 +47,8 @@ var security_2022 = [
     ['https://www.ieee-security.org/TC/SP2023/cfpapers.html', 'Oakland 2023', '2022-12-02', '2023-02-21', '13 + 5', 'San Francisco', 'IEEE'],
     ['https://www.ndss-symposium.org/ndss2023-call-for-papers/', 'NDSS 2023', '2022-05-13', '2022-07-22', '13 +', 'San Diego', 'IEEE'],
     ['https://www.ndss-symposium.org/ndss2023-call-for-papers/', 'NDSS 2023', '2022-07-29', '2022-10-21', '13 +', 'San Diego', 'IEEE'],
-
+    ['https://www.usenix.org/conference/usenixsecurity23/call-for-papers', 'Security 2023', '2022-06-07', '2022-09-02', '13 + ', 'Anaheim', 'USENIX'],
+    ['https://www.usenix.org/conference/usenixsecurity23/call-for-papers', 'Security 2023', '2022-10-11', '2023-01-27', '13 + ', 'Anaheim', 'USENIX'],
 ]
 
 var others_2022 = [
