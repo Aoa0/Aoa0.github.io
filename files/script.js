@@ -49,6 +49,9 @@ var security_2022 = [
     ['https://www.ndss-symposium.org/ndss2023-call-for-papers/', 'NDSS 2023', '2022-07-29', '2022-10-21', '13 +', 'San Diego', 'IEEE'],
     ['https://www.usenix.org/conference/usenixsecurity23/call-for-papers', 'Security 2023', '2022-06-07', '2022-09-02', '13 + ', 'Anaheim', 'USENIX'],
     ['https://www.usenix.org/conference/usenixsecurity23/call-for-papers', 'Security 2023', '2022-10-11', '2023-01-27', '13 + ', 'Anaheim', 'USENIX'],
+    ['https://www.acsac.org/2022/submissions/papers/', 'ACSAC 2022', '2021-06-29', '2021-09-02', '10 + 5', 'Texas', 'ACM'],
+    ['https://raid2022.cs.ucy.ac.cy/call.html', 'RAID 2022', '2021-04-07', '2021-06-09', '12 +', 'Limassol', 'ACM'],
+
 ]
 
 var others_2022 = [
