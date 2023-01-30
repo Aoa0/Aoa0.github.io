@@ -28,10 +28,20 @@ function create_cfp_links(){
 
 var table_head = ['Name', 'Deadline', 'Notification', 'Page', 'Location', 'Format']
 
+var security_2024 = [
+    ['https://www.usenix.org/conference/usenixsecurity24', 'Security 2024', '2024-02-08', '2024-03-18', '13 +', 'Philadelphia', 'USENIX'],
+
+]
+
 var security_2023 = [
     ['https://www.usenix.org/conference/usenixsecurity23/call-for-papers', 'Security 2023', '2023-02-07', '2023-05-08', '13 + ', 'Anaheim', 'USENIX'],
     ['https://www.esorics2023.org/call/papers/', 'ESORICS 2023', '2023-01-22', '2023-03-26', '16 +', 'Hague', 'Springer'],
     ['https://www.esorics2023.org/call/papers/', 'ESORICS 2023', '2023-05-28', '2023-07-23', '16 +', 'Hague', 'Springer'],
+    ['https://www.sigsac.org/ccs/CCS2023/call-for-paper.html', 'CCS 2023', '2023-01-19', 'N.A.', '12 +', 'Copenhagen', 'ACM'],
+    ['https://www.sigsac.org/ccs/CCS2023/call-for-paper.html', 'CCS 2023', '2023-05-04', 'N.A.', '12 +', 'Copenhagen', 'ACM'],
+    ['https://www.usenix.org/conference/usenixsecurity24', 'Security 2024', '2023-06-06', '2023-07-13', '13 +', 'Philadelphia', 'USENIX'],
+    ['https://www.usenix.org/conference/usenixsecurity24', 'Security 2024', '2023-10-17', '2023-11-27', '13 +', 'Philadelphia', 'USENIX'],
+
 ]
 
 var others_2023 = [
@@ -41,6 +51,8 @@ var others_2023 = [
     ['https://conf.researchr.org/track/ase-2023/ase-2023-papers', 'ASE 2023', '2023-04-28', '2023-07-17', '10 + 2', 'Luxembourg', 'ACM'],
     ['https://conf.researchr.org/track/icse-2024/icse-2024-research-track#Call-for-papers', 'ICSE 2024', '2023-03-29', '2023-06-02', '10 + 2', 'Lisbon', 'ACM'],
     ['https://conf.researchr.org/track/icse-2024/icse-2024-research-track#Call-for-papers', 'ICSE 2024', '2023-08-01', '2023-10-10', '10 + 2', 'Lisbon', 'ACM'],
+    
+
 ]
 
 var security_2022 = [
