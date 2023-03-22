@@ -41,6 +41,12 @@ var security_2023 = [
     ['https://www.sigsac.org/ccs/CCS2023/call-for-paper.html', 'CCS 2023', '2023-05-04', 'N.A.', '12 +', 'Copenhagen', 'ACM'],
     ['https://www.usenix.org/conference/usenixsecurity24', 'Security 2024', '2023-06-06', '2023-07-13', '13 +', 'Philadelphia', 'USENIX'],
     ['https://www.usenix.org/conference/usenixsecurity24', 'Security 2024', '2023-10-17', '2023-11-27', '13 +', 'Philadelphia', 'USENIX'],
+    ['https://www.ndss-symposium.org/ndss2024/submissions/call-for-papers/', 'NDSS 2024', '2023-04-19', '2023-05-19', '13 +', 'San Diego', 'IEEE'],
+    ['https://www.ndss-symposium.org/ndss2024/submissions/call-for-papers/', 'NDSS 2024', '2023-06-28', '2023-08-04', '13 +', 'San Diego', 'IEEE'],
+    ['https://sp2024.ieee-security.org/cfpapers.html', 'Oakland 2024', '2023-04-13', '2023-05-22', '13 + 5', 'San Francisco', 'IEEE'],
+    ['https://sp2024.ieee-security.org/cfpapers.html', 'Oakland 2024', '2023-08-03', '2023-09-11', '13 + 5', 'San Francisco', 'IEEE'],
+    ['https://sp2024.ieee-security.org/cfpapers.html', 'Oakland 2024', '2023-12-06', '2024-01-22', '13 + 5', 'San Francisco', 'IEEE'],
+
 
 ]
 
