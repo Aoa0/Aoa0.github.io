@@ -1,5 +1,5 @@
 $(function(){
-    show_cfps("cfp-2023");
+    show_cfps("cfp-2024");
     create_cfp_links();
     create_table();
 })
@@ -29,7 +29,19 @@ function create_cfp_links(){
 var table_head = ['Name', 'Deadline', 'Notification', 'Page', 'Location', 'Format']
 
 var security_2024 = [
+    ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-01-28', '2024-04-03', '12 +', 'Salt Lake City', 'ACM'],
+    ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-04-14', 'N.A.', '12 +', 'Salt Lake City', 'ACM'],
     ['https://www.usenix.org/conference/usenixsecurity24', 'Security 2024', '2024-02-08', '2024-03-18', '13 +', 'Philadelphia', 'USENIX'],
+    ['https://sp2025.ieee-security.org/cfpapers.html', 'Oakland 2025', '2024-06-06', '2024-07-22', '13 + 5', 'San Francisco', 'IEEE'],
+    ['https://sp2025.ieee-security.org/cfpapers.html', 'Oakland 2025', '2024-11-14', '2025-01-20', '13 + 5', 'San Francisco', 'IEEE'],
+
+]
+
+var others_2024 = [
+    ['https://conf.researchr.org/track/icse-2025/icse-2025-research-track', 'ICSE 2025', '2024-03-15', '2024-06-11', '10 + 2', 'Ottawwa', 'ACM'],
+    ['https://conf.researchr.org/track/icse-2025/icse-2025-research-track', 'ICSE 2025', '2024-07-26', '2024-10-08', '10 + 2', 'Ottawa', 'ACM'],
+    ['https://conf.researchr.org/track/ase-2024/ase-2024-research', 'ASE 2024', '2024-05-31', '2024-07-22', '10 + 2', 'Sacramento', 'ACM'],
+    ['https://2024.issta.org/track/issta-2024-papers#Call-for-Papers', 'ISSTA 2024', '2024-04-12', '2024-06-11', '10 + 2', 'Vienna', 'ACM'],
 
 ]
 
@@ -160,10 +172,21 @@ security_2022.sort(ascend)
 others_2022.sort(ascend)
 security_2023.sort(ascend)
 others_2023.sort(ascend)
+security_2024.sort(ascend)
+others_2024.sort(ascend)
+
 
 
 
 function create_table(){
+    var table = document.getElementById('security-2024')
+    create_thead(table)
+    create_tbody(table, security_2024)
+
+    var table = document.getElementById('others-2024')
+    create_thead(table)
+    create_tbody(table, others_2024)
+
     var table = document.getElementById('security-2023')
     create_thead(table)
     create_tbody(table, security_2023)
