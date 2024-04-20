@@ -30,7 +30,7 @@ var table_head = ['Name', 'Deadline', 'Notification', 'Page', 'Location', 'Forma
 
 var security_2024 = [
     ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-01-28', '2024-04-03', '12 +', 'Salt Lake City', 'ACM'],
-    ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-04-14', '', '12 +', 'Salt Lake City', 'ACM'],
+    ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-04-29', 'N.A.', '12 +', 'Salt Lake City', 'ACM'],
     ['https://www.usenix.org/conference/usenixsecurity24', 'Security 2024', '2024-02-08', '2024-03-18', '13 +', 'Philadelphia', 'USENIX'],
     ['https://sp2025.ieee-security.org/cfpapers.html', 'Oakland 2025', '2024-06-06', '2024-07-22', '13 + 5', 'San Francisco', 'IEEE'],
     ['https://sp2025.ieee-security.org/cfpapers.html', 'Oakland 2025', '2024-11-14', '2025-01-20', '13 + 5', 'San Francisco', 'IEEE'],
