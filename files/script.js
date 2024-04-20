@@ -30,10 +30,15 @@ var table_head = ['Name', 'Deadline', 'Notification', 'Page', 'Location', 'Forma
 
 var security_2024 = [
     ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-01-28', '2024-04-03', '12 +', 'Salt Lake City', 'ACM'],
-    ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-04-14', 'N.A.', '12 +', 'Salt Lake City', 'ACM'],
+    ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-04-14', '', '12 +', 'Salt Lake City', 'ACM'],
     ['https://www.usenix.org/conference/usenixsecurity24', 'Security 2024', '2024-02-08', '2024-03-18', '13 +', 'Philadelphia', 'USENIX'],
     ['https://sp2025.ieee-security.org/cfpapers.html', 'Oakland 2025', '2024-06-06', '2024-07-22', '13 + 5', 'San Francisco', 'IEEE'],
     ['https://sp2025.ieee-security.org/cfpapers.html', 'Oakland 2025', '2024-11-14', '2025-01-20', '13 + 5', 'San Francisco', 'IEEE'],
+    ['https://www.ndss-symposium.org/ndss2025/submisions/call-for-papers/', 'NDSS 2025', '2024-04-17', '2024-05-21', '13 +', 'San Diego', 'IEEE'],
+    ['https://www.ndss-symposium.org/ndss2025/submisions/call-for-papers/', 'NDSS 2025', '2024-07-10', '2024-08-20', '13 +', 'San Diego', 'IEEE'],
+    ['https://www.usenix.org/conference/usenixsecurity25', 'Security 2025', '2024-09-04', '2024-10-15', '13 + ', 'Seattle', 'USENIX'],
+    ['https://www.usenix.org/conference/usenixsecurity25', 'Security 2025', '2025-01-22', '2025-03-04', '13 + ', 'Seattle', 'USENIX'],
+
 
 ]
 
