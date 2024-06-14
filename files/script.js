@@ -28,6 +28,7 @@ function create_cfp_links(){
 
 var table_head = ['Name', 'Deadline', 'Notification', 'Page', 'Location', 'Format']
 
+
 var security_2024 = [
     ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-01-28', '2024-04-03', '12 +', 'Salt Lake City', 'ACM'],
     ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-04-29', 'N.A.', '12 +', 'Salt Lake City', 'ACM'],
@@ -38,8 +39,6 @@ var security_2024 = [
     ['https://www.ndss-symposium.org/ndss2025/submisions/call-for-papers/', 'NDSS 2025', '2024-07-10', '2024-08-20', '13 +', 'San Diego', 'IEEE'],
     ['https://www.usenix.org/conference/usenixsecurity25', 'Security 2025', '2024-09-04', '2024-10-15', '13 + ', 'Seattle', 'USENIX'],
     ['https://www.usenix.org/conference/usenixsecurity25', 'Security 2025', '2025-01-22', '2025-03-04', '13 + ', 'Seattle', 'USENIX'],
-
-
 ]
 
 var others_2024 = [
@@ -47,6 +46,8 @@ var others_2024 = [
     ['https://conf.researchr.org/track/icse-2025/icse-2025-research-track', 'ICSE 2025', '2024-07-26', '2024-10-08', '10 + 2', 'Ottawa', 'ACM'],
     ['https://conf.researchr.org/track/ase-2024/ase-2024-research', 'ASE 2024', '2024-05-31', '2024-07-22', '10 + 2', 'Sacramento', 'ACM'],
     ['https://2024.issta.org/track/issta-2024-papers#Call-for-Papers', 'ISSTA 2024', '2024-04-12', '2024-06-11', '10 + 2', 'Vienna', 'ACM'],
+    ['https://conf.researchr.org/track/fse-2025/fse-2025-research-papers', 'FSE 2025', '2024-09-05', '2024-11-22', '18 + 4', 'Norway', 'ACM'],
+    ['https://conf.researchr.org/track/issta-2025/issta-2025-papers#Call-for-Papers', 'ISSTA 2025', '2024-10-31', '2024-12-19', '18 + 4', 'Norway', 'ACM'],
 
 ]
 
