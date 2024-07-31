@@ -52,7 +52,7 @@ var others_2024 = [
     ['https://www.usenix.org/conference/nsdi25/call-for-papers', 'NSDI 2025', '2024-04-30', '2024-07-24', '12 +', 'Philadelphia', 'USENIX'],
     ['https://www.usenix.org/conference/nsdi25/call-for-papers', 'NSDI 2025', '2024-09-12', '2024-12-10', '12 +', 'Philadelphia', 'USENIX'],
     ['https://www.sigmobile.org/mobicom/2025/cfp.html', 'MobiCom 2025', '2024-08-29', '2024-10-25', '12 +', 'Hong Kong', 'ACM'],
-    ['https://www.sigmobile.org/mobicom/2025/cfp.html', 'MobiCom 2025', '2025-03-11', '2024-05-10', '12 +', 'Hong Kong', 'ACM'],
+    ['https://www.sigmobile.org/mobicom/2025/cfp.html', 'MobiCom 2025', '2025-03-11', '2025-05-10', '12 +', 'Hong Kong', 'ACM'],
 
 ]
 
