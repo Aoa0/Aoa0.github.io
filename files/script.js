@@ -31,7 +31,7 @@ var table_head = ['Name', 'Deadline', 'Notification', 'Page', 'Location', 'Forma
 
 var security_2024 = [
     ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-01-28', '2024-04-03', '12 +', 'Salt Lake City', 'ACM'],
-    ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-04-29', 'N.A.', '12 +', 'Salt Lake City', 'ACM'],
+    ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-04-29', '2024-07-04', '12 +', 'Salt Lake City', 'ACM'],
     ['https://www.usenix.org/conference/usenixsecurity24', 'Security 2024', '2024-02-08', '2024-03-18', '13 +', 'Philadelphia', 'USENIX'],
     ['https://sp2025.ieee-security.org/cfpapers.html', 'Oakland 2025', '2024-06-06', '2024-07-22', '13 + 5', 'San Francisco', 'IEEE'],
     ['https://sp2025.ieee-security.org/cfpapers.html', 'Oakland 2025', '2024-11-14', '2025-01-20', '13 + 5', 'San Francisco', 'IEEE'],
@@ -53,6 +53,9 @@ var others_2024 = [
     ['https://www.usenix.org/conference/nsdi25/call-for-papers', 'NSDI 2025', '2024-09-12', '2024-12-10', '12 +', 'Philadelphia', 'USENIX'],
     ['https://www.sigmobile.org/mobicom/2025/cfp.html', 'MobiCom 2025', '2024-08-29', '2024-10-25', '12 +', 'Hong Kong', 'ACM'],
     ['https://www.sigmobile.org/mobicom/2025/cfp.html', 'MobiCom 2025', '2025-03-11', '2025-05-10', '12 +', 'Hong Kong', 'ACM'],
+    ['https://infocom2025.ieee-infocom.org/authors/call-papers-main-conference', 'INFOCOM 2025', '2024-07-31', '2024-12-06', '9 + 1', 'London', 'IEEE'],
+    ['https://icc2025.ieee-icc.org/authors/call-papers', 'ICC 2025', '2024-10-11', '2025-01-17', '6', 'Montreal', 'IEEE'],
+    ['https://globecom2024.ieee-globecom.org/call-papers', 'GLOBECOM 2024', '2024-04-30', '2024-08-01', '6', 'South Africa', 'IEEE'],
 
 ]
 
