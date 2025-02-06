@@ -1,5 +1,5 @@
 $(function(){
-    show_cfps("cfp-2024");
+    show_cfps("cfp-2025");
     create_cfp_links();
     create_table();
 })
@@ -28,6 +28,23 @@ function create_cfp_links(){
 
 var table_head = ['Name', 'Deadline', 'Notification', 'Page', 'Location', 'Format']
 
+var security_2025 = [
+    ['https://www.usenix.org/conference/usenixsecurity25', 'Security 2025', '2025-01-22', '2025-03-04', '13 + ', 'Seattle', 'USENIX'],
+    ['https://www.sigsac.org/ccs/CCS2025/call-for-papers/', 'CCS 2025', '2025-01-02', '2025-02-10', '12 +', 'Taipei', 'ACM'],
+    ['https://www.sigsac.org/ccs/CCS2025/call-for-papers/', 'CCS 2025', '2025-04-07', '2025-05-16', '12 +', 'Taipei', 'ACM'],
+    ['https://sp2026.ieee-security.org/cfpapers.html', 'Oakland 2026', '2025-06-05', '2025-07-21', '13 + 5', 'San Francisco', 'IEEE'],
+    ['https://sp2026.ieee-security.org/cfpapers.html', 'Oakland 2026', '2025-11-13', '2026-01-19', '13 + 5', 'San Francisco', 'IEEE'],
+
+]
+
+var others_2025 = [
+    ['https://conf.researchr.org/track/icse-2026/icse-2026-research-track', 'ICSE 2026', '2025-03-07', '2025-05-27', '10 + 2', 'Rio De Janeiro', 'ACM'],
+    ['https://conf.researchr.org/track/icse-2026/icse-2026-research-track', 'ICSE 2026', '2025-07-11', '2025-09-23', '10 + 2', 'Rio De Janeiro', 'ACM'],
+    ['https://conf.researchr.org/track/ase-2025/ase-2025-papers', 'ASE 2025', '2025-05-30', '2025-07-22', '10 + 2', 'Seoul', 'ACM'],
+    ['https://globecom2025.ieee-globecom.org/call-symposium-papers', 'GLOBECOM 2025', '2025-04-01', '2025-08-01', '6', 'Taipei', 'IEEE'],
+
+]
+
 
 var security_2024 = [
     ['https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html', 'CCS 2024', '2024-01-28', '2024-04-03', '12 +', 'Salt Lake City', 'ACM'],
@@ -38,7 +55,6 @@ var security_2024 = [
     ['https://www.ndss-symposium.org/ndss2025/submisions/call-for-papers/', 'NDSS 2025', '2024-04-17', '2024-05-21', '13 +', 'San Diego', 'IEEE'],
     ['https://www.ndss-symposium.org/ndss2025/submisions/call-for-papers/', 'NDSS 2025', '2024-07-10', '2024-08-20', '13 +', 'San Diego', 'IEEE'],
     ['https://www.usenix.org/conference/usenixsecurity25', 'Security 2025', '2024-09-04', '2024-10-15', '13 + ', 'Seattle', 'USENIX'],
-    ['https://www.usenix.org/conference/usenixsecurity25', 'Security 2025', '2025-01-22', '2025-03-04', '13 + ', 'Seattle', 'USENIX'],
 ]
 
 var others_2024 = [
@@ -188,11 +204,20 @@ security_2023.sort(ascend)
 others_2023.sort(ascend)
 security_2024.sort(ascend)
 others_2024.sort(ascend)
-
+security_2025.sort(ascend)
+others_2025.sort(ascend)
 
 
 
 function create_table(){
+    var table = document.getElementById('security-2025')
+    create_thead(table)
+    create_tbody(table, security_2025)
+
+    var table = document.getElementById('others-2025')
+    create_thead(table)
+    create_tbody(table, others_2025)
+    
     var table = document.getElementById('security-2024')
     create_thead(table)
     create_tbody(table, security_2024)
