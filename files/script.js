@@ -34,6 +34,8 @@ var security_2025 = [
     ['https://www.sigsac.org/ccs/CCS2025/call-for-papers/', 'CCS 2025', '2025-04-07', '2025-05-16', '12 +', 'Taipei', 'ACM'],
     ['https://sp2026.ieee-security.org/cfpapers.html', 'Oakland 2026', '2025-06-05', '2025-07-21', '13 + 5', 'San Francisco', 'IEEE'],
     ['https://sp2026.ieee-security.org/cfpapers.html', 'Oakland 2026', '2025-11-13', '2026-01-19', '13 + 5', 'San Francisco', 'IEEE'],
+    ['https://www.ndss-symposium.org/ndss2026/submisions/call-for-papers/', 'NDSS 2026', '2025-04-16', '2025-05-28', '13 +', 'San Diego', 'IEEE'],
+    ['https://www.ndss-symposium.org/ndss2026/submisions/call-for-papers/', 'NDSS 2026', '2025-07-30', '2025-09-17', '13 +', 'San Diego', 'IEEE'],
 
 ]
 
