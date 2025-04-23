@@ -36,6 +36,8 @@ var security_2025 = [
     ['https://sp2026.ieee-security.org/cfpapers.html', 'Oakland 2026', '2025-11-13', '2026-01-19', '13 + 5', 'San Francisco', 'IEEE'],
     ['https://www.ndss-symposium.org/ndss2026/submisions/call-for-papers/', 'NDSS 2026', '2025-04-16', '2025-05-28', '13 +', 'San Diego', 'IEEE'],
     ['https://www.ndss-symposium.org/ndss2026/submisions/call-for-papers/', 'NDSS 2026', '2025-07-30', '2025-09-17', '13 +', 'San Diego', 'IEEE'],
+    ['https://www.usenix.org/conference/usenixsecurity26', 'Security 2026', '2025-08-19', '', '13 + ', 'Baltimore', 'USENIX'],
+    ['https://www.usenix.org/conference/usenixsecurity26', 'Security 2026', '2026-01-29', '', '13 + ', 'Baltimore', 'USENIX'],
 
 ]
 
@@ -44,7 +46,8 @@ var others_2025 = [
     ['https://conf.researchr.org/track/icse-2026/icse-2026-research-track', 'ICSE 2026', '2025-07-11', '2025-09-23', '10 + 2', 'Rio De Janeiro', 'ACM'],
     ['https://conf.researchr.org/track/ase-2025/ase-2025-papers', 'ASE 2025', '2025-05-30', '2025-07-22', '10 + 2', 'Seoul', 'ACM'],
     ['https://globecom2025.ieee-globecom.org/call-symposium-papers', 'GLOBECOM 2025', '2025-04-01', '2025-08-01', '6', 'Taipei', 'IEEE'],
-
+    ['https://conf.researchr.org/track/fse-2026/fse-2026-research-papers', 'FSE 2026', '2025-09-04', '2025-11-21', '18 + 4', 'Montreal', 'ACM'],
+    ['https://conf.researchr.org/track/saner-2026/saner-2026-papers', 'SANER 2026', '2025-10-09', '2025-12-09', '10 + 2', 'Limassol', 'IEEE'],
 ]
 
 
