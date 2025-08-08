@@ -9,9 +9,10 @@
     min-height: 100%;
     overflow: inherit;
     width: 800pt;
+    max-width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
-
-
 
 #footer {
     margin-top: 2em;
@@ -43,6 +44,8 @@ body {
     font:15px/1.5 'Roboto Slab', Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color:#000;
     font-weight:400;
+    margin: 0;
+    min-height: 100vh;
 }
   
 h1, h2, h3, h4, h5, h6 {
@@ -107,11 +110,14 @@ hr {
 table.cfp-table {
     border-collapse: collapse;
     margin: auto;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
 }
-
 
 table.cfp-table th, table.cfp-table td {
     padding: .55em;
+    word-wrap: break-word;
 }
 
 table.cfp-table th {
@@ -128,5 +134,198 @@ table.cfp-table td {
     font: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+/* Year link styles */
+.cfp-link {
+    color: #39c;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: normal;
+    display: inline-block;
+    margin: 2px;
+}
 
+.cfp-link:hover {
+    color: #069;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.cfp-link.active {
+    background-color: #39c;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.cfp-link.active:hover {
+    background-color: #069;
+    color: white;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    #container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    body {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    /* Profile section mobile layout */
+    #container > table {
+        width: 100%;
+        display: block;
+    }
+    
+    #container > table tr {
+        display: block;
+        text-align: center;
+    }
+    
+    #container > table td {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    #container > table td:first-child {
+        margin-bottom: 20px;
+    }
+    
+    #container > table img {
+        height: 200px !important;
+        width: auto;
+        max-width: 100%;
+    }
+    
+    /* Year links mobile layout */
+    #cfp {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        margin: 20px 0;
+    }
+    
+    #cfp .cfp-link {
+        margin: 0;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    
+    /* Table mobile layout */
+    table.cfp-table {
+        font-size: 12px;
+    }
+    
+    table.cfp-table th, 
+    table.cfp-table td {
+        padding: 8px 4px;
+        font-size: 11px;
+    }
+    
+    /* Make table scrollable on mobile */
+    .cfp-table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: 0 -10px;
+        padding: 0 10px;
+    }
+    
+    /* Footer mobile layout */
+    #footer {
+        float: none;
+        text-align: center;
+        margin-top: 1em;
+    }
+    
+    /* References mobile layout */
+    ul {
+        padding-left: 20px;
+    }
+    
+    ul li {
+        margin-bottom: 10px;
+        word-wrap: break-word;
+    }
+}
+
+@media (max-width: 480px) {
+    #container {
+        padding: 0 5px;
+    }
+    
+    body {
+        padding: 5px;
+        font-size: 13px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    h3 {
+        font-size: 16px;
+    }
+    
+    /* Even smaller text for very small screens */
+    table.cfp-table {
+        font-size: 10px;
+    }
+    
+    table.cfp-table th, 
+    table.cfp-table td {
+        padding: 6px 2px;
+        font-size: 10px;
+    }
+    
+    #cfp .cfp-link {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    
+    /* Profile image smaller on very small screens */
+    #container > table img {
+        height: 150px !important;
+    }
+}
+
+/* Landscape orientation adjustments */
+@media (max-width: 768px) and (orientation: landscape) {
+    #container > table img {
+        height: 120px !important;
+    }
+    
+    #container > table td:first-child {
+        margin-bottom: 10px;
+    }
+    
+    table.cfp-table th, 
+    table.cfp-table td {
+        padding: 4px 2px;
+        font-size: 10px;
+    }
+}
   
