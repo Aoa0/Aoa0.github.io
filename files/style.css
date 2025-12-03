@@ -134,6 +134,15 @@ table.cfp-table td {
     font: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+/* Publication author styles */
+.co-first-author {
+    text-decoration: underline;
+}
+
+.corresponding-author::after {
+    content: "*";
+}
+
 /* Year link styles */
 .cfp-link {
     color: #39c;

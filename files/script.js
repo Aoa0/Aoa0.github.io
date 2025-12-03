@@ -1,7 +1,7 @@
 $(function(){
     create_cfp_links();
     create_table();
-    show_cfps("cfp-2025");
+    show_cfps("cfp-2026");
     setDefaultYearActive();
 })
 
@@ -36,11 +36,22 @@ function create_cfp_links(){
 // Set default year active
 function setDefaultYearActive() {
     $('.cfp-link').removeClass('active');
-    $('#cfp-25').addClass('active'); // Default to 2025
+    $('#cfp-26').addClass('active'); // Default to 2026
 }
 
 // Configuration-driven data structure
 var cfpData = {
+    "2026": {
+        "security": [
+            ['https://www.usenix.org/conference/usenixsecurity26', 'Security 2026', '2026-01-29', '2026-03-17', '13 + ', 'Baltimore', 'USENIX'],
+            ['https://www.sigsac.org/ccs/CCS2026/call-for-papers.html', 'CCS 2026', '2026-01-14', '', '12 +', 'The Hage', 'ACM'],
+            ['https://www.sigsac.org/ccs/CCS2026/call-for-papers.html', 'CCS 2026', '2026-04-29', '', '12 +', 'The Hage', 'ACM'],
+        ],
+        "others": [
+            ['https://conf.researchr.org/track/issta-2026/issta-2026-research-papers', 'ISSTA 2026', '2026-01-29', '2026-03-17', '18 +', 'California', 'ACM'],
+            ['https://conf.researchr.org/track/ase-2026/ase-2026-research-track', 'ASE 2026', '2026-03-26', '2026-05-25', '10 + 2', 'Munich', 'ACM'],
+        ]
+    },
     "2025": {
         "security": [
             ['https://www.usenix.org/conference/usenixsecurity25', 'Security 2025', '2025-01-22', '2025-03-04', '13 + ', 'Seattle', 'USENIX'],
@@ -51,7 +62,6 @@ var cfpData = {
             ['https://www.ndss-symposium.org/ndss2026/submisions/call-for-papers/', 'NDSS 2026', '2025-04-16', '2025-05-28', '13 +', 'San Diego', 'IEEE'],
             ['https://www.ndss-symposium.org/ndss2026/submisions/call-for-papers/', 'NDSS 2026', '2025-07-30', '2025-09-17', '13 +', 'San Diego', 'IEEE'],
             ['https://www.usenix.org/conference/usenixsecurity26', 'Security 2026', '2025-08-19', '2025-10-07', '13 + ', 'Baltimore', 'USENIX'],
-            ['https://www.usenix.org/conference/usenixsecurity26', 'Security 2026', '2026-01-29', '2026-03-17', '13 + ', 'Baltimore', 'USENIX'],
         ],
         "others": [
             ['https://conf.researchr.org/track/icse-2026/icse-2026-research-track', 'ICSE 2026', '2025-03-07', '2025-05-27', '10 + 2', 'Rio De Janeiro', 'ACM'],
@@ -60,7 +70,6 @@ var cfpData = {
             ['https://globecom2025.ieee-globecom.org/call-symposium-papers', 'GLOBECOM 2025', '2025-04-01', '2025-08-01', '6', 'Taipei', 'IEEE'],
             ['https://conf.researchr.org/track/fse-2026/fse-2026-research-papers', 'FSE 2026', '2025-09-04', '2025-11-21', '18 + 4', 'Montreal', 'ACM'],
             ['https://conf.researchr.org/track/saner-2026/saner-2026-papers', 'SANER 2026', '2025-10-09', '2025-12-09', '10 + 2', 'Limassol', 'IEEE'],
-            ['https://conf.researchr.org/track/issta-2026/issta-2026-research-papers', 'ISSTA 2026', '2026-01-29', '2026-03-17', '18 +', 'California', 'ACM'],
         ]
     },
     "2024": {
