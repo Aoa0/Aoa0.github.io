@@ -46,10 +46,14 @@ var cfpData = {
             ['https://www.usenix.org/conference/usenixsecurity26', 'Security 2026', '2026-01-29', '2026-03-17', '13 + ', 'Baltimore', 'USENIX'],
             ['https://www.sigsac.org/ccs/CCS2026/call-for-papers.html', 'CCS 2026', '2026-01-14', '', '12 +', 'The Hage', 'ACM'],
             ['https://www.sigsac.org/ccs/CCS2026/call-for-papers.html', 'CCS 2026', '2026-04-29', '', '12 +', 'The Hage', 'ACM'],
+            ['https://wisec26.events.cispa.de/call-for-papers/', 'WiSec 2026', '2026-03-03', '2026-04-14', '10 + 2', 'Saarbrücken', 'ACM'],
+
         ],
         "others": [
             ['https://conf.researchr.org/track/issta-2026/issta-2026-research-papers', 'ISSTA 2026', '2026-01-29', '2026-03-17', '18 +', 'California', 'ACM'],
             ['https://conf.researchr.org/track/ase-2026/ase-2026-research-track', 'ASE 2026', '2026-03-26', '2026-05-25', '10 + 2', 'Munich', 'ACM'],
+            ['https://conf.researchr.org/track/splash-2026/oopsla-2026', 'OOPSLA 2026', '2026-03-17', '2026-05-18', '23', 'California', 'ACM'],
+
         ]
     },
     "2025": {
