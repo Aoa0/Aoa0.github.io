@@ -50,17 +50,22 @@ var cfpData = {
 
         ],
         "others": [
-            ['https://conf.researchr.org/track/issta-2026/issta-2026-research-papers', 'ISSTA 2026', '2026-01-29', '2026-03-17', '18 +', 'California', 'ACM'],
+            ['https://conf.researchr.org/track/issta-2026/issta-2026-research-papers', 'ISSTA 2026', '2026-01-29', '2026-03-24', '18 +', 'California', 'ACM'],
             ['https://conf.researchr.org/track/ase-2026/ase-2026-research-track', 'ASE 2026', '2026-03-26', '2026-05-25', '10 + 2', 'Munich', 'ACM'],
             ['https://conf.researchr.org/track/splash-2026/oopsla-2026', 'OOPSLA 2026', '2026-03-17', '2026-05-18', '23', 'California', 'ACM'],
+            ['https://conf.researchr.org/track/icse-2027/icse-2027-research-track', 'ICSE 2027', '2026-06-23', '2026-09-25', '10 + 2', 'Dublin', 'ACM'],
+            ['', 'INFOCOM 2027', '2026-07-24', '', '9 + 1', 'Hawaii', 'IEEE'],
+            ['https://conferences.sigcomm.org/co-next/2026/#!/home', 'CoNEXT 2026', '2026-05-29', '2026-09-11', '16 + 4', 'Utrecht', 'ACM'],
+            ['https://icnp26.cs.ucr.edu/', 'ICNP 2026', '2026-05-15', '2026-07-21', '10 + ', 'Arizona', 'IEEE'],
+
 
         ]
     },
     "2025": {
         "security": [
             ['https://www.usenix.org/conference/usenixsecurity25', 'Security 2025', '2025-01-22', '2025-03-04', '13 + ', 'Seattle', 'USENIX'],
-            ['https://www.sigsac.org/ccs/CCS2025/call-for-papers/', 'CCS 2025', '2025-01-02', '2025-02-10', '12 +', 'Taipei', 'ACM'],
-            ['https://www.sigsac.org/ccs/CCS2025/call-for-papers/', 'CCS 2025', '2025-04-07', '2025-05-16', '12 +', 'Taipei', 'ACM'],
+            ['https://www.sigsac.org/ccs/CCS2026/call-for/call-for-papers.html', 'CCS 2025', '2025-01-02', '2025-02-10', '12 +', 'Taipei', 'ACM'],
+            ['https://www.sigsac.org/ccs/CCS2026/call-for/call-for-papers.html', 'CCS 2025', '2025-04-07', '2025-05-16', '12 +', 'Taipei', 'ACM'],
             ['https://sp2026.ieee-security.org/cfpapers.html', 'Oakland 2026', '2025-06-05', '2025-07-21', '13 + 5', 'San Francisco', 'IEEE'],
             ['https://sp2026.ieee-security.org/cfpapers.html', 'Oakland 2026', '2025-11-13', '2026-01-19', '13 + 5', 'San Francisco', 'IEEE'],
             ['https://www.ndss-symposium.org/ndss2026/submisions/call-for-papers/', 'NDSS 2026', '2025-04-16', '2025-05-28', '13 +', 'San Diego', 'IEEE'],
