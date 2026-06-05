@@ -51,8 +51,8 @@ var cfpData = {
             ['https://www.usenix.org/conference/usenixsecurity27', 'Security 2027', '2027-01-19', '', '13 + ', 'Denver', 'USENIX'],
             ['https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/', 'NDSS 2027', '2026-05-06', '2026-06-12', '13 +', 'Seoul', 'IEEE'],
             ['https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/', 'NDSS 2027', '2026-08-19', '2026-09-25', '13 +', 'Seoul', 'IEEE'],
-
-
+            ['https://sp2027.ieee-security.org/cfpapers.html', 'Oakland 2027', '2026-06-04', '2026-07-27', '13 + 5', 'Montreal', 'IEEE'],
+            ['https://sp2027.ieee-security.org/cfpapers.html', 'Oakland 2027', '2026-11-10', '2027-01-18', '13 + 5', 'Montreal', 'IEEE'],
 
         ],
         "others": [
@@ -64,7 +64,6 @@ var cfpData = {
             ['https://conferences.sigcomm.org/co-next/2026/#!/home', 'CoNEXT 2026', '2026-05-29', '2026-09-11', '16 + 4', 'Utrecht', 'ACM'],
             ['https://icnp26.cs.ucr.edu/', 'ICNP 2026', '2026-05-15', '2026-07-21', '10 + ', 'Arizona', 'IEEE'],
             ['https://conf.researchr.org/track/fse-2027/fse-2027-papers', 'FSE 2027', '2026-10-02', '2026-12-14', '18 + 4', 'Shenzhen', 'ACM'],
-
 
         ]
     },
